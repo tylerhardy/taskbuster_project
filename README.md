@@ -269,7 +269,7 @@ class NewVisitorTest(LiveServerTestCase):
 - Define an auxiliar function named `get_full_url` that takes one argument, the `namespace`.
   - A `namespace` is an identifier for a url.
   - `self.live_server_url` gives you the local host url (http://localhost:8021). 
-  - Revers gives you the **relative** url of a given namespace (/).
+  - Reverse gives you the **relative** url of a given namespace (/).
   - The resulting function gives you the absolute url of that namespace (the sum of the previous two (http://localhost:8021/)).
 - The `test_home_title` method tests that the home page title contains the word 'TaskBuster'.
 - The `test_h1_css` method tests that the h1 text has the desired color.
@@ -375,3 +375,4 @@ Open `test_all_users.py` and modify the following:
 + class HomeNewVisitorTest(StaticLiveServerTestCase):
 ```
 
+##
